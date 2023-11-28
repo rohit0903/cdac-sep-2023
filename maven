@@ -1,0 +1,42 @@
+Session 12 & 13 (Maven)
+Maven is a powerful project management tool that is based on POM (project object model). It is used for projects build, dependency and documentation.
+It simplifies the build process like ANT. But it is too much advanced than ANT.
+
+What is Build Tool
+A build tool takes care of everything for building a process. It does following:
+o	Generates source code (if auto-generated code is used)
+o	Generates documentation from source code
+o	Compiles source code
+o	Packages compiled code into JAR of ZIP file
+o	Installs the packaged code in local repository, server repository, or central repository
+Understanding the problem without Maven
+There are many problems that we face during the project development. They are discussed below:
+1) Adding set of Jars in each project: In case of struts, spring, hibernate frameworks, we need to add set of jar files in each project. It must include all the dependencies of jars also.
+2) Creating the right project structure: We must create the right project structure in servlet, struts etc, otherwise it will not be executed.
+3) Building and Deploying the project: We must have to build and deploy the project so that it may work.
+ 
+How to install:
+https://www.mkyong.com/maven/how-to-install-maven-in-windows/
+
+Maven Repository
+1.	Local Repository
+2.	Central Repository
+3.	Remote Repository
+ 
+
+Maven pom.xml file
+POM is an acronym for Project Object Model.
+
+Example:
+ 
+
+Build Lifecycle:
+ 
+Maven Plugins
+According to Apache Maven, there are 2 types of maven plugins.
+1.	Build Plugins
+2.	Reporting Plugins
+Example: 
+1.	Create new maven project -> Simple arch type
+2.	Create new web based maven project -> Web type
+3.	Practical example on everyone machines.
